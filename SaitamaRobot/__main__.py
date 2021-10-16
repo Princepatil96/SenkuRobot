@@ -80,7 +80,7 @@ You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-*Main* commands available [:](https://telegra.ph/file/418fe04d27f1fb02788e3.png)
+*Main* commands available [:](https://telegra.ph/file/0b2272ddb6abf751be763.jpg)
 
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
@@ -92,12 +92,12 @@ HELP_STRINGS = """
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/e4b3dc747eb56dca07797.png"
+SAITAMA_IMG = "https://telegra.ph/file/0b2272ddb6abf751be763.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @Princepatil96k."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -214,26 +214,26 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                            text="⚡PRINCE KO ADD KARO 👑",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔔 Updates ",
-                             url="https://t.me/SenkuUpdates")
+                             text="⚡UPDATE 👑",
+                             url="https://t.me/KING_PRINCE_SUPPORT")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" ✨ Help ",
-                            url="https://t.me/SenkuRobot?start=help"),
+                            text=" ✨ HELP 👑",
+                            url="https://t.me/SONNA_ROBOT?start=help"),
                          InlineKeyboardButton(
-                            text=" ⚡️ Get Started ",
-                             url="https://t.me/SenkuUpdates/4")        
+                            text=" ⚡️ OWNER 👑",
+                             url="https://t.me/Princepatil96k")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://github.com/FtSasaki/SenkuRobot")
+                             text="⚡POWERED BY👑",
+                             url="https://t.me/STUDY_FLOWER_QUIZ_GROUP")
                     
                     ]
                    ]
